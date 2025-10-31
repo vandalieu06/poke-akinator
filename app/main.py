@@ -62,6 +62,12 @@ class PokeAPi:
 poke = PokeAPi()
 poke_info = poke.get_poke_info(777)
 print(json.dumps(poke_info, indent=2))
+
+file_name = os.path.join(os.getcwd(),'app/data/data.json')
+
+with open(file_name, 'w') as data_json:
+    json.dump(poke_info, data_json, indent = 4)
+
 # https://www.datacamp.com/es/tutorial/python-private-methods-explained?dc_referrer=https%3A%2F%2Fwww.google.com%2F
 # Codigo Anterior de obtener las veoluciones de manera statica
 # evo_ruta = evos_data["chain"]["evolves_to"][0]
