@@ -74,12 +74,6 @@ POKE_NUM = 30
 poke_ids = random.sample(range(1, POKEDEX_NUM + 1), POKE_NUM)
 poke_list = [poke.get_poke_info(id) for id in poke_ids]
 
-# while len(poke_ids) < 30:
-#     num = random.randint(1, 1025)
-#     if num not in poke_ids:
-#         poke_ids.append(num)
-#         poke_list.append(poke.get_poke_info(num))
-
 
 file_name = os.path.join(os.getcwd(), "app/data/data.json")
 
@@ -96,3 +90,9 @@ with open(file_name, "w") as data_json:
 #         evos.append(evo_ruta["evolves_to"][0]["species"]["name"])
 # Metodo para obtener el index a partir de el nombre del elemento y eliminarlo de la lista
 # evos.pop(evos.index(name))
+# Metodo para verificar numeros unicos
+# while len(poke_ids) < 30:
+#     num = random.randint(1, 1025)
+#     if num not in poke_ids:
+#         poke_ids.append(num)
+#         poke_list.append(poke.get_poke_info(num))
