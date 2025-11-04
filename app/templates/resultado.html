@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Programa Akinator</title>
+</head>
+<body>
+    <h1>Resultado - Akinator Pokémon</h1>
+    <h2>Creo que tu Pokémon es...</h2>
+
+    <img src="{{ p.image }}" alt="{{ p.name }}">
+    <p>{{ p.name }}</p>
+
+    <a href="{{ url_for('index') }}">Volver al inicio</a>
+</body>
+</html>

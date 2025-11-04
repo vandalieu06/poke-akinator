@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
+    <title>Programa Akinator</title>
+</head>
+<body>
+    <h1>Akinator Pokémon</h1>
+    <h2>Piensa en un Pokémon...</h2>
+
+    <div class="galeria">
+        {% for p in pokemons %}
+            <div class="pokemon">
+                <img src="{{ p.image }}" alt="{{ p.name }}">
+                <p>{{ p.name }}</p>
+            </div>
+        {% endfor %}
+    </div>
+
+    <form action="{{ url_for('preguntas') }}" method="get">
+        <button type="submit">¡Estoy listo!</button>
+    </form>
+</body>
+</html>
