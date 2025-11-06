@@ -1,4 +1,3 @@
-/* === RESET BÀSIC === */
 * {
     margin: 0;
     padding: 0;
@@ -6,7 +5,6 @@
     font-family: "Poppins", sans-serif;
 }
 
-/* === ESTILS GENERALS === */
 body {
     background: linear-gradient(135deg, #f9d423, #ff4e50);
     min-height: 100vh;
@@ -19,7 +17,6 @@ body {
     padding: 2rem 1rem;
 }
 
-/* === TÍTOLS === */
 h1 {
     font-size: 3rem;
     text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
@@ -31,11 +28,10 @@ h2 {
     margin-bottom: 2rem;
 }
 
-/* === GALERIA DE POKÉMON === */
 .galeria {
     display: grid;
-    grid-template-columns: repeat(5, 1fr); /* 5 columnes fixes */
-    gap: 1.5rem; /* espai entre imatges */
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1.5rem;
     width: 100%;
     max-width: 1000px;
     margin-bottom: 2rem;
@@ -53,7 +49,6 @@ h2 {
     transform: scale(1.1);
 }
 
-/* === IMATGES === */
 .pokemon img {
     width: 100%;
     max-width: 100px;
@@ -70,7 +65,6 @@ h2 {
     color: #fff;
 }
 
-/* === BOTÓ === */
 button {
     background-color: #ffcb05;
     border: none;
