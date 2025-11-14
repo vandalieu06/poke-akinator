@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Prejecte Akinator{% endblock %}</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body class="min-h-screen bg-gradient-to-br from-yellow-300 to-red-500 text-white flex flex-col items-center p-6">
+    
+    <h1 class="text-4xl font-bold drop-shadow-lg mb-2">Akinator Pokémon</h1>
+    <h2 class="text-xl mb-8">Piensa en un Pokémon...</h2>
+
+    {% block content %}{% endblock %}
+</body>
+</html>
