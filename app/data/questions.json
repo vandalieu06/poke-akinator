@@ -1,0 +1,82 @@
+{
+  "special_status": {
+    "question": "¿Es este Pokémon un Legendario, Mítico o Ultraente?",
+    "key": "is_special_status"
+  },
+  "main_type_simple": {
+    "question": "¿Su Tipo principal es Normal, Planta o Agua?",
+    "key": "is_main_type_normal_grass_water"
+  },
+  "dual_type": {
+    "question": "¿Tiene un doble Tipo Elemento (es decir, más de uno)?",
+    "key": "has_dual_type"
+  },
+  "secondary_type_special": {
+    "question": "¿Su Tipo secundario es Volador, Hada o Acero?",
+    "key": "is_secondary_type_flying_fairy_steel"
+  },
+  "gen_1_or_2": {
+    "question": "¿Pertenece a la Generación 1 (Kanto) o 2 (Johto)?",
+    "key": "is_gen_1_or_2"
+  },
+  "gen_even": {
+    "question": "¿Se introdujo en una Generación par (2, 4, 6, 8)?",
+    "key": "is_gen_even"
+  },
+  "three_stage_evo": {
+    "question": "¿Tiene más de dos etapas evolutivas en total (una línea de 3 o más Pokémon)?",
+    "key": "is_three_stage_evo"
+  },
+  "single_stage": {
+    "question": "¿No tiene evoluciones (es una etapa única, no Legendario/Mítico)?",
+    "key": "is_single_stage_non_special"
+  },
+  "color_rgb": {
+    "question": "¿Su Color predominante es el Rojo, Azul o Verde?",
+    "key": "is_color_rgb"
+  },
+  "color_ypk": {
+    "question": "¿Su Color predominante es el Amarillo, Violeta o Rosa?",
+    "key": "is_color_yellow_purple_pink"
+  },
+  "heavy_weight": {
+    "question": "¿Pesa más de 200 kg?",
+    "key": "weight_over_200kg"
+  },
+  "light_weight": {
+    "question": "¿Pesa menos de 1 kg?",
+    "key": "weight_under_1kg"
+  },
+  "long_name": {
+    "question": "¿Su Nombre en español tiene más de 7 letras?",
+    "key": "name_len_over_7"
+  },
+  "consonant_start": {
+    "question": "¿Su Nombre en español empieza con una consonante?",
+    "key": "name_starts_consonant"
+  },
+  "bug_poison_gen7_plus": {
+    "question": "¿Es de Tipo Bicho o Tipo Veneno y pertenece a la Generación 7 o posterior?",
+    "key": "is_bug_poison_gen_7_plus"
+  },
+  "has_regional_form": {
+    "question": "¿Posee alguna Forma Regional (ej. de Alola, Galar o Paldea)?",
+    "key": "has_regional_form"
+  },
+  "habitat_snow_desert": {
+    "question": "¿Se encuentra de forma silvestre principalmente en una Región nevada o desértica?",
+    "key": "is_habitat_snow_or_desert"
+  },
+  "has_signature_move": {
+    "question": "¿Aprende un Ataque único (movimiento característico)?",
+    "key": "has_signature_move"
+  },
+  "can_mega_evolve": {
+    "question": "¿Es un Pokémon que puede Megaevolucionar?",
+    "key": "can_mega_evolve"
+  },
+  "legendary_regional": {
+    "question": "¿Es un Pokémon Legendario con una Forma Regional?",
+    "key": "is_legendary_with_regional_form"
+  }
+}
