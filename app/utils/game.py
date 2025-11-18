@@ -85,7 +85,6 @@ class PokeAkinatorLogic:
 
 
 def run_console_game():
-    # 1. Cargar Datos
     print("[LOG] Iniciando carga de datos...")
     data_loader = DataHandler()
     poke_data = data_loader.get_data("data.json")
