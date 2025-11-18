@@ -17,18 +17,18 @@
 
         <div class="w-2/3 text-white flex flex-col justify-center">
             <h2 class="text-3xl font-bold mb-6 drop-shadow-md">
-                {{ pregunta }}
+                {{ question }}
             </h2>
 
-            <form action="{{ url_for('preguntas') }}" method="POST" class="flex flex-col gap-4">
+            <form action="{{ url_for('question') }}" method="POST" class="flex flex-col gap-4">
 
-                <button name="respuesta" value="si"
+                <button name="respuesta" value="Y"
                         class="bg-yellow-300 text-blue-700 font-bold py-3 rounded-xl shadow-md
                                hover:bg-yellow-400 hover:-translate-y-1 transition-all">
                     SÍ
                 </button>
 
-                <button name="respuesta" value="no"
+                <button name="respuesta" value="N"
                         class="bg-yellow-300 text-blue-700 font-bold py-3 rounded-xl shadow-md
                                hover:bg-yellow-400 hover:-translate-y-1 transition-all">
                     NO

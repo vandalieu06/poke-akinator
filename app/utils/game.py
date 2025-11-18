@@ -7,7 +7,7 @@ from pathlib import Path
 class DataHandler:
     def __init__(self, base_dir=None):
         if base_dir is None:
-            self.base_dir = Path(os.getcwd()) / "data"
+            self.base_dir = Path(os.getcwd()) / "app/data"
         else:
             self.base_dir = Path(base_dir)
 
