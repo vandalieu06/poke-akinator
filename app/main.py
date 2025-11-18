@@ -54,6 +54,11 @@ def index():
 
     return render_template("index.html", pokemons=poke_data)
 
+@app.route("/restart")
+def restart():
+    init_game()
+    return redirect(url_for("index"))
+
 
 @app.route("/preguntas", methods=["GET", "POST"])
 def question():
@@ -93,7 +98,7 @@ def resultado():
         candidates = ", ".join([p["name"] for p in game.current_poke_data])
         result_text = f"Posibles candidatos: {candidates}"
 
-    return render_template("resultado.html", result=result_text)
+    return render_template("resultado.html", result=result_text, pokemon=game.current_poke_data[0]["image"])
 
 
 if __name__ == "__main__":

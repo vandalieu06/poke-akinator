@@ -5,4 +5,7 @@
 {% block content %}
     <h1>Resultado</h1>
     <p>{{ result }}</p>
+    <img src="{{ pokemon }}" class="w-24 h-24 rounded-full bg-white p-2 shadow-lg">
+
+    <a href="{{ url_for('restart') }}">Comenzar Juego</a>
 {% endblock %}
