@@ -32,11 +32,8 @@ class PokeAkinatorLogic:
         self.current_question_index = 0
         self.history = []
 
+    # Paso 1 - Obtenemos la pregunta y su valor
     def get_current_question(self) -> tuple[str, str] | None:
-        """
-        Obtiene la pregunta actual y la clave de filtro.
-        Retorna (pregunta, clave) o None si no hay más preguntas.
-        """
         q_keys = list(self.questions_data.keys())
 
         if self.current_question_index >= len(q_keys):
@@ -47,13 +44,10 @@ class PokeAkinatorLogic:
 
         return question_info["question"], question_info["key"]
 
+    # Paso 2 - Obtenemos la repsuesta del usuario y filtramos la lista
     def process_answer(self, res_user: str, filter_key: str) -> None:
-        """
-        Filtra la lista de pokemons restantes basándose en la respuesta del usuario.
-        """
         res = res_user.strip()
 
-        # Lógica de filtrado
         if res in RESPUESTAS_POSITIVAS:
             self.current_poke_data = [
                 p for p in self.current_poke_data if p.get(filter_key, False)
@@ -67,12 +61,12 @@ class PokeAkinatorLogic:
         self.history.append((filter_key, res))
         self.current_question_index += 1
 
+    # Paso 3 - Verificamos el estado del codigo, este comprueba si no hay mas pokemon/preguntas
     def is_game_over(self) -> bool:
-        """Verifica si el juego ha terminado."""
         return len(self.current_poke_data) <= 1 or self.get_current_question() is None
 
+    # Paso 4 - Generamos el resultado del PokeAKinator
     def get_result(self) -> str | None:
-        """Retorna el resultado final o None si el juego no ha terminado."""
         if not self.is_game_over():
             return None
 
@@ -81,28 +75,32 @@ class PokeAkinatorLogic:
         elif len(self.current_poke_data) == 0:
             return "¡No pude encontrar tu Pokémon! Parece que no está en la lista."
 
-        return None  # Caso de len > 1, pero sin más preguntas
+        return None
 
 
 def run_console_game():
+    # Cargamos los datos
     print("[LOG] Iniciando carga de datos...")
     data_loader = DataHandler()
     poke_data = data_loader.get_data("data.json")
     questions_data = data_loader.get_data("questions.json")
 
+    # Verificamos que hay datos
     if not poke_data or not questions_data:
         print("[ERROR] No se pudieron cargar los datos. Terminando.")
         return
 
-    # 2. Inicializar Lógica del Juego
+    # Iniciamos el juego con lo datos
     game = PokeAkinatorLogic(poke_data, questions_data)
     print("\n[LOG] ¡Juego de PokeAkinator iniciado!")
 
+    # Recoremos los pokemons y obtenemos los nombres
     pokes = [p["name"] for p in game.all_poke_data]
     print("Escoge uno de los siguientes pokemons: " + ", ".join(pokes))
 
-    # 3. Bucle del Juego
+    # Bucle de preguntas mientras no haya mas pokemons/preguntas
     while not game.is_game_over():
+        # Obtenemos la pregunta actual y la informacion correspondiente
         current_question_info = game.get_current_question()
 
         if current_question_info is None:
@@ -111,6 +109,7 @@ def run_console_game():
 
         question, filter_key = current_question_info
 
+        # Esperamos respuesta usuario y verificamos que sea valida
         res_user = input(
             f"\n{game.current_question_index + 1} - {question} (Y/S o N): "
         )
@@ -134,5 +133,3 @@ def run_console_game():
             f"\n[FIN] ¡Se acabaron las preguntas! Los posibles candidatos son: {candidates}"
         )
 
-
-run_console_game()
