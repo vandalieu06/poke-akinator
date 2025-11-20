@@ -1,11 +1,23 @@
 {% extends "base.html" %}
 
-{% block title %}Akinator Pokémon - RESULTADO{% endblock %}
+{% block title %}Akinator Pokémon – Resultado{% endblock %}
 
 {% block content %}
-    <h1>Resultado</h1>
-    <p>{{ result }}</p>
-    <img src="{{ pokemon }}" class="w-24 h-24 rounded-full bg-white p-2 shadow-lg">
-
-    <a href="{{ url_for('restart') }}">Comenzar Juego</a>
+<div class="flex flex-col items-center justify-center min-h-screen bg-gradient-to-br from-yellow-300 to-red-500 p-6 text-white">
+  <h1 class="text-4xl font-bold mb-6 drop-shadow-lg">Resultado</h1>
+  
+  <p class="text-2xl mb-6">{{ result }}</p>
+  
+  <div class="mb-8">
+    <img src="{{ pokemon }}"
+         alt="{{ result }}"
+         class="w-32 h-32 rounded-full bg-white p-3 shadow-xl">
+  </div>
+  
+  <a href="{{ url_for('restart') }}"
+     class="bg-yellow-300 text-blue-700 font-bold px-6 py-3 rounded-xl shadow-md
+            hover:bg-yellow-400 hover:-translate-y-1 transition-all">
+    Comenzar Juego
+  </a>
+</div>
 {% endblock %}
