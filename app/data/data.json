@@ -1,364 +1,45 @@
 [
   {
-    "name": "wooloo",
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/831.png",
-    "weight_kg": 6.0,
+    "name": "xatu",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/178.png",
+    "weight_kg": 15.0,
     "types": [
-      "normal"
-    ],
-    "color": "white",
-    "is_baby": false,
-    "is_legendary": false,
-    "is_mythical": false,
-    "varieties_name": [
-      "wooloo"
-    ],
-    "generation": 8,
-    "evos": [
-      "wooloo",
-      "dubwool"
-    ],
-    "is_special_status": false,
-    "is_main_type_normal_grass_water": true,
-    "has_dual_type": false,
-    "is_secondary_type_flying_fairy_steel": false,
-    "is_gen_1_or_2": false,
-    "is_gen_even": true,
-    "is_three_stage_evo": false,
-    "is_single_stage_non_special": false,
-    "is_color_rgb": false,
-    "is_color_yellow_purple_pink": false,
-    "weight_over_200kg": false,
-    "weight_under_1kg": false,
-    "name_len_over_7": false,
-    "name_starts_consonant": true,
-    "is_bug_poison_gen_7_plus": false
-  },
-  {
-    "name": "cacnea",
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/331.png",
-    "weight_kg": 51.3,
-    "types": [
-      "grass"
+      "psychic",
+      "flying"
     ],
     "color": "green",
     "is_baby": false,
     "is_legendary": false,
     "is_mythical": false,
     "varieties_name": [
-      "cacnea"
+      "xatu"
     ],
-    "generation": 3,
+    "generation": 2,
     "evos": [
-      "cacnea",
-      "cacturne"
+      "natu",
+      "xatu"
     ],
     "is_special_status": false,
-    "is_main_type_normal_grass_water": true,
-    "has_dual_type": false,
-    "is_secondary_type_flying_fairy_steel": false,
-    "is_gen_1_or_2": false,
-    "is_gen_even": false,
-    "is_three_stage_evo": false,
-    "is_single_stage_non_special": false,
-    "is_color_rgb": true,
-    "is_color_yellow_purple_pink": false,
-    "weight_over_200kg": false,
-    "weight_under_1kg": false,
-    "name_len_over_7": false,
-    "name_starts_consonant": true,
-    "is_bug_poison_gen_7_plus": false
-  },
-  {
-    "name": "zekrom",
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/644.png",
-    "weight_kg": 345.0,
-    "types": [
-      "dragon",
-      "electric"
-    ],
-    "color": "black",
-    "is_baby": false,
-    "is_legendary": true,
-    "is_mythical": false,
-    "varieties_name": [
-      "zekrom"
-    ],
-    "generation": 5,
-    "evos": [
-      "zekrom"
-    ],
-    "is_special_status": true,
-    "is_main_type_normal_grass_water": false,
-    "has_dual_type": true,
-    "is_secondary_type_flying_fairy_steel": false,
-    "is_gen_1_or_2": false,
-    "is_gen_even": false,
-    "is_three_stage_evo": false,
-    "is_single_stage_non_special": false,
-    "is_color_rgb": false,
-    "is_color_yellow_purple_pink": false,
-    "weight_over_200kg": true,
-    "weight_under_1kg": false,
-    "name_len_over_7": false,
-    "name_starts_consonant": true,
-    "is_bug_poison_gen_7_plus": false
-  },
-  {
-    "name": "arrokuda",
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/846.png",
-    "weight_kg": 1.0,
-    "types": [
-      "water"
-    ],
-    "color": "brown",
-    "is_baby": false,
-    "is_legendary": false,
-    "is_mythical": false,
-    "varieties_name": [
-      "arrokuda"
-    ],
-    "generation": 8,
-    "evos": [
-      "arrokuda",
-      "barraskewda"
-    ],
-    "is_special_status": false,
-    "is_main_type_normal_grass_water": true,
-    "has_dual_type": false,
-    "is_secondary_type_flying_fairy_steel": false,
-    "is_gen_1_or_2": false,
-    "is_gen_even": true,
-    "is_three_stage_evo": false,
-    "is_single_stage_non_special": false,
-    "is_color_rgb": false,
-    "is_color_yellow_purple_pink": false,
-    "weight_over_200kg": false,
-    "weight_under_1kg": false,
-    "name_len_over_7": true,
-    "name_starts_consonant": false,
-    "is_bug_poison_gen_7_plus": false
-  },
-  {
-    "name": "squirtle",
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png",
-    "weight_kg": 9.0,
-    "types": [
-      "water"
-    ],
-    "color": "blue",
-    "is_baby": false,
-    "is_legendary": false,
-    "is_mythical": false,
-    "varieties_name": [
-      "squirtle"
-    ],
-    "generation": 1,
-    "evos": [
-      "squirtle",
-      "wartortle",
-      "blastoise"
-    ],
-    "is_special_status": false,
-    "is_main_type_normal_grass_water": true,
-    "has_dual_type": false,
-    "is_secondary_type_flying_fairy_steel": false,
-    "is_gen_1_or_2": true,
-    "is_gen_even": false,
-    "is_three_stage_evo": true,
-    "is_single_stage_non_special": false,
-    "is_color_rgb": true,
-    "is_color_yellow_purple_pink": false,
-    "weight_over_200kg": false,
-    "weight_under_1kg": false,
-    "name_len_over_7": true,
-    "name_starts_consonant": true,
-    "is_bug_poison_gen_7_plus": false
-  },
-  {
-    "name": "zapdos",
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/145.png",
-    "weight_kg": 52.6,
-    "types": [
-      "electric",
-      "flying"
-    ],
-    "color": "yellow",
-    "is_baby": false,
-    "is_legendary": true,
-    "is_mythical": false,
-    "varieties_name": [
-      "zapdos",
-      "zapdos-galar"
-    ],
-    "generation": 1,
-    "evos": [
-      "zapdos"
-    ],
-    "is_special_status": true,
     "is_main_type_normal_grass_water": false,
     "has_dual_type": true,
     "is_secondary_type_flying_fairy_steel": true,
     "is_gen_1_or_2": true,
-    "is_gen_even": false,
-    "is_three_stage_evo": false,
-    "is_single_stage_non_special": false,
-    "is_color_rgb": false,
-    "is_color_yellow_purple_pink": true,
-    "weight_over_200kg": false,
-    "weight_under_1kg": false,
-    "name_len_over_7": false,
-    "name_starts_consonant": true,
-    "is_bug_poison_gen_7_plus": false
-  },
-  {
-    "name": "karrablast",
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/588.png",
-    "weight_kg": 5.9,
-    "types": [
-      "bug"
-    ],
-    "color": "blue",
-    "is_baby": false,
-    "is_legendary": false,
-    "is_mythical": false,
-    "varieties_name": [
-      "karrablast"
-    ],
-    "generation": 5,
-    "evos": [
-      "karrablast",
-      "escavalier"
-    ],
-    "is_special_status": false,
-    "is_main_type_normal_grass_water": false,
-    "has_dual_type": false,
-    "is_secondary_type_flying_fairy_steel": false,
-    "is_gen_1_or_2": false,
-    "is_gen_even": false,
+    "is_gen_even": true,
     "is_three_stage_evo": false,
     "is_single_stage_non_special": false,
     "is_color_rgb": true,
     "is_color_yellow_purple_pink": false,
     "weight_over_200kg": false,
     "weight_under_1kg": false,
-    "name_len_over_7": true,
-    "name_starts_consonant": true,
-    "is_bug_poison_gen_7_plus": false
-  },
-  {
-    "name": "goodra",
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/706.png",
-    "weight_kg": 150.5,
-    "types": [
-      "dragon"
-    ],
-    "color": "purple",
-    "is_baby": false,
-    "is_legendary": false,
-    "is_mythical": false,
-    "varieties_name": [
-      "goodra",
-      "goodra-hisui"
-    ],
-    "generation": 6,
-    "evos": [
-      "goomy",
-      "sliggoo",
-      "goodra"
-    ],
-    "is_special_status": false,
-    "is_main_type_normal_grass_water": false,
-    "has_dual_type": false,
-    "is_secondary_type_flying_fairy_steel": false,
-    "is_gen_1_or_2": false,
-    "is_gen_even": true,
-    "is_three_stage_evo": true,
-    "is_single_stage_non_special": false,
-    "is_color_rgb": false,
-    "is_color_yellow_purple_pink": true,
-    "weight_over_200kg": false,
-    "weight_under_1kg": false,
     "name_len_over_7": false,
     "name_starts_consonant": true,
     "is_bug_poison_gen_7_plus": false
   },
   {
-    "name": "grumpig",
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/326.png",
-    "weight_kg": 71.5,
+    "name": "sobble",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/816.png",
+    "weight_kg": 4.0,
     "types": [
-      "psychic"
-    ],
-    "color": "purple",
-    "is_baby": false,
-    "is_legendary": false,
-    "is_mythical": false,
-    "varieties_name": [
-      "grumpig"
-    ],
-    "generation": 3,
-    "evos": [
-      "spoink",
-      "grumpig"
-    ],
-    "is_special_status": false,
-    "is_main_type_normal_grass_water": false,
-    "has_dual_type": false,
-    "is_secondary_type_flying_fairy_steel": false,
-    "is_gen_1_or_2": false,
-    "is_gen_even": false,
-    "is_three_stage_evo": false,
-    "is_single_stage_non_special": false,
-    "is_color_rgb": false,
-    "is_color_yellow_purple_pink": true,
-    "weight_over_200kg": false,
-    "weight_under_1kg": false,
-    "name_len_over_7": false,
-    "name_starts_consonant": true,
-    "is_bug_poison_gen_7_plus": false
-  },
-  {
-    "name": "cubone",
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/104.png",
-    "weight_kg": 6.5,
-    "types": [
-      "ground"
-    ],
-    "color": "brown",
-    "is_baby": false,
-    "is_legendary": false,
-    "is_mythical": false,
-    "varieties_name": [
-      "cubone"
-    ],
-    "generation": 1,
-    "evos": [
-      "cubone",
-      "marowak"
-    ],
-    "is_special_status": false,
-    "is_main_type_normal_grass_water": false,
-    "has_dual_type": false,
-    "is_secondary_type_flying_fairy_steel": false,
-    "is_gen_1_or_2": true,
-    "is_gen_even": false,
-    "is_three_stage_evo": false,
-    "is_single_stage_non_special": false,
-    "is_color_rgb": false,
-    "is_color_yellow_purple_pink": false,
-    "weight_over_200kg": false,
-    "weight_under_1kg": false,
-    "name_len_over_7": false,
-    "name_starts_consonant": true,
-    "is_bug_poison_gen_7_plus": false
-  },
-  {
-    "name": "omastar",
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/139.png",
-    "weight_kg": 35.0,
-    "types": [
-      "rock",
       "water"
     ],
     "color": "blue",
@@ -366,55 +47,172 @@
     "is_legendary": false,
     "is_mythical": false,
     "varieties_name": [
-      "omastar"
+      "sobble"
     ],
-    "generation": 1,
+    "generation": 8,
     "evos": [
-      "omanyte",
-      "omastar"
+      "sobble",
+      "drizzile",
+      "inteleon"
     ],
     "is_special_status": false,
-    "is_main_type_normal_grass_water": false,
-    "has_dual_type": true,
+    "is_main_type_normal_grass_water": true,
+    "has_dual_type": false,
     "is_secondary_type_flying_fairy_steel": false,
-    "is_gen_1_or_2": true,
-    "is_gen_even": false,
-    "is_three_stage_evo": false,
+    "is_gen_1_or_2": false,
+    "is_gen_even": true,
+    "is_three_stage_evo": true,
     "is_single_stage_non_special": false,
     "is_color_rgb": true,
     "is_color_yellow_purple_pink": false,
     "weight_over_200kg": false,
     "weight_under_1kg": false,
     "name_len_over_7": false,
-    "name_starts_consonant": false,
+    "name_starts_consonant": true,
     "is_bug_poison_gen_7_plus": false
   },
   {
-    "name": "kricketot",
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/401.png",
-    "weight_kg": 2.2,
+    "name": "scolipede",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/545.png",
+    "weight_kg": 200.5,
     "types": [
-      "bug"
+      "bug",
+      "poison"
     ],
     "color": "red",
     "is_baby": false,
     "is_legendary": false,
     "is_mythical": false,
     "varieties_name": [
-      "kricketot"
+      "scolipede",
+      "scolipede-mega"
     ],
-    "generation": 4,
+    "generation": 5,
     "evos": [
-      "kricketot",
-      "kricketune"
+      "venipede",
+      "whirlipede",
+      "scolipede"
     ],
     "is_special_status": false,
     "is_main_type_normal_grass_water": false,
+    "has_dual_type": true,
+    "is_secondary_type_flying_fairy_steel": false,
+    "is_gen_1_or_2": false,
+    "is_gen_even": false,
+    "is_three_stage_evo": true,
+    "is_single_stage_non_special": false,
+    "is_color_rgb": true,
+    "is_color_yellow_purple_pink": false,
+    "weight_over_200kg": true,
+    "weight_under_1kg": false,
+    "name_len_over_7": true,
+    "name_starts_consonant": true,
+    "is_bug_poison_gen_7_plus": false
+  },
+  {
+    "name": "swanna",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/581.png",
+    "weight_kg": 24.2,
+    "types": [
+      "water",
+      "flying"
+    ],
+    "color": "white",
+    "is_baby": false,
+    "is_legendary": false,
+    "is_mythical": false,
+    "varieties_name": [
+      "swanna"
+    ],
+    "generation": 5,
+    "evos": [
+      "ducklett",
+      "swanna"
+    ],
+    "is_special_status": false,
+    "is_main_type_normal_grass_water": true,
+    "has_dual_type": true,
+    "is_secondary_type_flying_fairy_steel": true,
+    "is_gen_1_or_2": false,
+    "is_gen_even": false,
+    "is_three_stage_evo": false,
+    "is_single_stage_non_special": false,
+    "is_color_rgb": false,
+    "is_color_yellow_purple_pink": false,
+    "weight_over_200kg": false,
+    "weight_under_1kg": false,
+    "name_len_over_7": false,
+    "name_starts_consonant": true,
+    "is_bug_poison_gen_7_plus": false
+  },
+  {
+    "name": "wishiwashi-solo",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/746.png",
+    "weight_kg": 0.3,
+    "types": [
+      "water"
+    ],
+    "color": "blue",
+    "is_baby": false,
+    "is_legendary": false,
+    "is_mythical": false,
+    "varieties_name": [
+      "wishiwashi-solo",
+      "wishiwashi-school"
+    ],
+    "generation": 7,
+    "evos": [
+      "wishiwashi"
+    ],
+    "is_special_status": false,
+    "is_main_type_normal_grass_water": true,
     "has_dual_type": false,
     "is_secondary_type_flying_fairy_steel": false,
     "is_gen_1_or_2": false,
-    "is_gen_even": true,
+    "is_gen_even": false,
     "is_three_stage_evo": false,
+    "is_single_stage_non_special": true,
+    "is_color_rgb": true,
+    "is_color_yellow_purple_pink": false,
+    "weight_over_200kg": false,
+    "weight_under_1kg": true,
+    "name_len_over_7": true,
+    "name_starts_consonant": true,
+    "is_bug_poison_gen_7_plus": false
+  },
+  {
+    "name": "vaporeon",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/134.png",
+    "weight_kg": 29.0,
+    "types": [
+      "water"
+    ],
+    "color": "blue",
+    "is_baby": false,
+    "is_legendary": false,
+    "is_mythical": false,
+    "varieties_name": [
+      "vaporeon"
+    ],
+    "generation": 1,
+    "evos": [
+      "eevee",
+      "vaporeon",
+      "jolteon",
+      "flareon",
+      "espeon",
+      "umbreon",
+      "leafeon",
+      "glaceon",
+      "sylveon"
+    ],
+    "is_special_status": false,
+    "is_main_type_normal_grass_water": true,
+    "has_dual_type": false,
+    "is_secondary_type_flying_fairy_steel": false,
+    "is_gen_1_or_2": true,
+    "is_gen_even": false,
+    "is_three_stage_evo": true,
     "is_single_stage_non_special": false,
     "is_color_rgb": true,
     "is_color_yellow_purple_pink": false,
@@ -425,10 +223,263 @@
     "is_bug_poison_gen_7_plus": false
   },
   {
-    "name": "nosepass",
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/299.png",
-    "weight_kg": 97.0,
+    "name": "haunter",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/93.png",
+    "weight_kg": 0.1,
     "types": [
+      "ghost",
+      "poison"
+    ],
+    "color": "purple",
+    "is_baby": false,
+    "is_legendary": false,
+    "is_mythical": false,
+    "varieties_name": [
+      "haunter"
+    ],
+    "generation": 1,
+    "evos": [
+      "gastly",
+      "haunter",
+      "gengar"
+    ],
+    "is_special_status": false,
+    "is_main_type_normal_grass_water": false,
+    "has_dual_type": true,
+    "is_secondary_type_flying_fairy_steel": false,
+    "is_gen_1_or_2": true,
+    "is_gen_even": false,
+    "is_three_stage_evo": true,
+    "is_single_stage_non_special": false,
+    "is_color_rgb": false,
+    "is_color_yellow_purple_pink": true,
+    "weight_over_200kg": false,
+    "weight_under_1kg": true,
+    "name_len_over_7": false,
+    "name_starts_consonant": true,
+    "is_bug_poison_gen_7_plus": false
+  },
+  {
+    "name": "scraggy",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/559.png",
+    "weight_kg": 11.8,
+    "types": [
+      "dark",
+      "fighting"
+    ],
+    "color": "yellow",
+    "is_baby": false,
+    "is_legendary": false,
+    "is_mythical": false,
+    "varieties_name": [
+      "scraggy"
+    ],
+    "generation": 5,
+    "evos": [
+      "scraggy",
+      "scrafty"
+    ],
+    "is_special_status": false,
+    "is_main_type_normal_grass_water": false,
+    "has_dual_type": true,
+    "is_secondary_type_flying_fairy_steel": false,
+    "is_gen_1_or_2": false,
+    "is_gen_even": false,
+    "is_three_stage_evo": false,
+    "is_single_stage_non_special": false,
+    "is_color_rgb": false,
+    "is_color_yellow_purple_pink": true,
+    "weight_over_200kg": false,
+    "weight_under_1kg": false,
+    "name_len_over_7": false,
+    "name_starts_consonant": true,
+    "is_bug_poison_gen_7_plus": false
+  },
+  {
+    "name": "roaring-moon",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1005.png",
+    "weight_kg": 380.0,
+    "types": [
+      "dragon",
+      "dark"
+    ],
+    "color": "green",
+    "is_baby": false,
+    "is_legendary": false,
+    "is_mythical": false,
+    "varieties_name": [
+      "roaring-moon"
+    ],
+    "generation": 9,
+    "evos": [
+      "roaring-moon"
+    ],
+    "is_special_status": false,
+    "is_main_type_normal_grass_water": false,
+    "has_dual_type": true,
+    "is_secondary_type_flying_fairy_steel": false,
+    "is_gen_1_or_2": false,
+    "is_gen_even": false,
+    "is_three_stage_evo": false,
+    "is_single_stage_non_special": true,
+    "is_color_rgb": true,
+    "is_color_yellow_purple_pink": false,
+    "weight_over_200kg": true,
+    "weight_under_1kg": false,
+    "name_len_over_7": true,
+    "name_starts_consonant": true,
+    "is_bug_poison_gen_7_plus": false
+  },
+  {
+    "name": "iron-valiant",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1006.png",
+    "weight_kg": 35.0,
+    "types": [
+      "fairy",
+      "fighting"
+    ],
+    "color": "white",
+    "is_baby": false,
+    "is_legendary": false,
+    "is_mythical": false,
+    "varieties_name": [
+      "iron-valiant"
+    ],
+    "generation": 9,
+    "evos": [
+      "iron-valiant"
+    ],
+    "is_special_status": false,
+    "is_main_type_normal_grass_water": false,
+    "has_dual_type": true,
+    "is_secondary_type_flying_fairy_steel": false,
+    "is_gen_1_or_2": false,
+    "is_gen_even": false,
+    "is_three_stage_evo": false,
+    "is_single_stage_non_special": true,
+    "is_color_rgb": false,
+    "is_color_yellow_purple_pink": false,
+    "weight_over_200kg": false,
+    "weight_under_1kg": false,
+    "name_len_over_7": true,
+    "name_starts_consonant": false,
+    "is_bug_poison_gen_7_plus": false
+  },
+  {
+    "name": "natu",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/177.png",
+    "weight_kg": 2.0,
+    "types": [
+      "psychic",
+      "flying"
+    ],
+    "color": "green",
+    "is_baby": false,
+    "is_legendary": false,
+    "is_mythical": false,
+    "varieties_name": [
+      "natu"
+    ],
+    "generation": 2,
+    "evos": [
+      "natu",
+      "xatu"
+    ],
+    "is_special_status": false,
+    "is_main_type_normal_grass_water": false,
+    "has_dual_type": true,
+    "is_secondary_type_flying_fairy_steel": true,
+    "is_gen_1_or_2": true,
+    "is_gen_even": true,
+    "is_three_stage_evo": false,
+    "is_single_stage_non_special": false,
+    "is_color_rgb": true,
+    "is_color_yellow_purple_pink": false,
+    "weight_over_200kg": false,
+    "weight_under_1kg": false,
+    "name_len_over_7": false,
+    "name_starts_consonant": true,
+    "is_bug_poison_gen_7_plus": false
+  },
+  {
+    "name": "kingambit",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/983.png",
+    "weight_kg": 120.0,
+    "types": [
+      "dark",
+      "steel"
+    ],
+    "color": "black",
+    "is_baby": false,
+    "is_legendary": false,
+    "is_mythical": false,
+    "varieties_name": [
+      "kingambit"
+    ],
+    "generation": 9,
+    "evos": [
+      "pawniard",
+      "bisharp",
+      "kingambit"
+    ],
+    "is_special_status": false,
+    "is_main_type_normal_grass_water": false,
+    "has_dual_type": true,
+    "is_secondary_type_flying_fairy_steel": true,
+    "is_gen_1_or_2": false,
+    "is_gen_even": false,
+    "is_three_stage_evo": true,
+    "is_single_stage_non_special": false,
+    "is_color_rgb": false,
+    "is_color_yellow_purple_pink": false,
+    "weight_over_200kg": false,
+    "weight_under_1kg": false,
+    "name_len_over_7": true,
+    "name_starts_consonant": true,
+    "is_bug_poison_gen_7_plus": false
+  },
+  {
+    "name": "mudkip",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/258.png",
+    "weight_kg": 7.6,
+    "types": [
+      "water"
+    ],
+    "color": "blue",
+    "is_baby": false,
+    "is_legendary": false,
+    "is_mythical": false,
+    "varieties_name": [
+      "mudkip"
+    ],
+    "generation": 3,
+    "evos": [
+      "mudkip",
+      "marshtomp",
+      "swampert"
+    ],
+    "is_special_status": false,
+    "is_main_type_normal_grass_water": true,
+    "has_dual_type": false,
+    "is_secondary_type_flying_fairy_steel": false,
+    "is_gen_1_or_2": false,
+    "is_gen_even": false,
+    "is_three_stage_evo": true,
+    "is_single_stage_non_special": false,
+    "is_color_rgb": true,
+    "is_color_yellow_purple_pink": false,
+    "weight_over_200kg": false,
+    "weight_under_1kg": false,
+    "name_len_over_7": false,
+    "name_starts_consonant": true,
+    "is_bug_poison_gen_7_plus": false
+  },
+  {
+    "name": "rhydon",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/112.png",
+    "weight_kg": 120.0,
+    "types": [
+      "ground",
       "rock"
     ],
     "color": "gray",
@@ -436,202 +487,57 @@
     "is_legendary": false,
     "is_mythical": false,
     "varieties_name": [
-      "nosepass"
+      "rhydon"
     ],
-    "generation": 3,
+    "generation": 1,
     "evos": [
-      "nosepass",
-      "probopass"
-    ],
-    "is_special_status": false,
-    "is_main_type_normal_grass_water": false,
-    "has_dual_type": false,
-    "is_secondary_type_flying_fairy_steel": false,
-    "is_gen_1_or_2": false,
-    "is_gen_even": false,
-    "is_three_stage_evo": false,
-    "is_single_stage_non_special": false,
-    "is_color_rgb": false,
-    "is_color_yellow_purple_pink": false,
-    "weight_over_200kg": false,
-    "weight_under_1kg": false,
-    "name_len_over_7": true,
-    "name_starts_consonant": true,
-    "is_bug_poison_gen_7_plus": false
-  },
-  {
-    "name": "garchomp",
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/445.png",
-    "weight_kg": 95.0,
-    "types": [
-      "dragon",
-      "ground"
-    ],
-    "color": "blue",
-    "is_baby": false,
-    "is_legendary": false,
-    "is_mythical": false,
-    "varieties_name": [
-      "garchomp",
-      "garchomp-mega"
-    ],
-    "generation": 4,
-    "evos": [
-      "gible",
-      "gabite",
-      "garchomp"
+      "rhyhorn",
+      "rhydon",
+      "rhyperior"
     ],
     "is_special_status": false,
     "is_main_type_normal_grass_water": false,
     "has_dual_type": true,
     "is_secondary_type_flying_fairy_steel": false,
-    "is_gen_1_or_2": false,
-    "is_gen_even": true,
-    "is_three_stage_evo": true,
-    "is_single_stage_non_special": false,
-    "is_color_rgb": true,
-    "is_color_yellow_purple_pink": false,
-    "weight_over_200kg": false,
-    "weight_under_1kg": false,
-    "name_len_over_7": true,
-    "name_starts_consonant": true,
-    "is_bug_poison_gen_7_plus": false
-  },
-  {
-    "name": "croagunk",
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/453.png",
-    "weight_kg": 23.0,
-    "types": [
-      "poison",
-      "fighting"
-    ],
-    "color": "blue",
-    "is_baby": false,
-    "is_legendary": false,
-    "is_mythical": false,
-    "varieties_name": [
-      "croagunk"
-    ],
-    "generation": 4,
-    "evos": [
-      "croagunk",
-      "toxicroak"
-    ],
-    "is_special_status": false,
-    "is_main_type_normal_grass_water": false,
-    "has_dual_type": true,
-    "is_secondary_type_flying_fairy_steel": false,
-    "is_gen_1_or_2": false,
-    "is_gen_even": true,
-    "is_three_stage_evo": false,
-    "is_single_stage_non_special": false,
-    "is_color_rgb": true,
-    "is_color_yellow_purple_pink": false,
-    "weight_over_200kg": false,
-    "weight_under_1kg": false,
-    "name_len_over_7": true,
-    "name_starts_consonant": true,
-    "is_bug_poison_gen_7_plus": false
-  },
-  {
-    "name": "bramblin",
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/946.png",
-    "weight_kg": 0.6,
-    "types": [
-      "grass",
-      "ghost"
-    ],
-    "color": "brown",
-    "is_baby": false,
-    "is_legendary": false,
-    "is_mythical": false,
-    "varieties_name": [
-      "bramblin"
-    ],
-    "generation": 9,
-    "evos": [
-      "bramblin",
-      "brambleghast"
-    ],
-    "is_special_status": false,
-    "is_main_type_normal_grass_water": true,
-    "has_dual_type": true,
-    "is_secondary_type_flying_fairy_steel": false,
-    "is_gen_1_or_2": false,
-    "is_gen_even": false,
-    "is_three_stage_evo": false,
-    "is_single_stage_non_special": false,
-    "is_color_rgb": false,
-    "is_color_yellow_purple_pink": false,
-    "weight_over_200kg": false,
-    "weight_under_1kg": true,
-    "name_len_over_7": true,
-    "name_starts_consonant": true,
-    "is_bug_poison_gen_7_plus": false
-  },
-  {
-    "name": "tynamo",
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/602.png",
-    "weight_kg": 0.3,
-    "types": [
-      "electric"
-    ],
-    "color": "white",
-    "is_baby": false,
-    "is_legendary": false,
-    "is_mythical": false,
-    "varieties_name": [
-      "tynamo"
-    ],
-    "generation": 5,
-    "evos": [
-      "tynamo",
-      "eelektrik",
-      "eelektross"
-    ],
-    "is_special_status": false,
-    "is_main_type_normal_grass_water": false,
-    "has_dual_type": false,
-    "is_secondary_type_flying_fairy_steel": false,
-    "is_gen_1_or_2": false,
+    "is_gen_1_or_2": true,
     "is_gen_even": false,
     "is_three_stage_evo": true,
     "is_single_stage_non_special": false,
     "is_color_rgb": false,
     "is_color_yellow_purple_pink": false,
     "weight_over_200kg": false,
-    "weight_under_1kg": true,
+    "weight_under_1kg": false,
     "name_len_over_7": false,
     "name_starts_consonant": true,
     "is_bug_poison_gen_7_plus": false
   },
   {
-    "name": "pineco",
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/204.png",
-    "weight_kg": 7.2,
+    "name": "veluza",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/976.png",
+    "weight_kg": 90.0,
     "types": [
-      "bug"
+      "water",
+      "psychic"
     ],
     "color": "gray",
     "is_baby": false,
     "is_legendary": false,
     "is_mythical": false,
     "varieties_name": [
-      "pineco"
+      "veluza"
     ],
-    "generation": 2,
+    "generation": 9,
     "evos": [
-      "pineco",
-      "forretress"
+      "veluza"
     ],
     "is_special_status": false,
-    "is_main_type_normal_grass_water": false,
-    "has_dual_type": false,
+    "is_main_type_normal_grass_water": true,
+    "has_dual_type": true,
     "is_secondary_type_flying_fairy_steel": false,
-    "is_gen_1_or_2": true,
-    "is_gen_even": true,
+    "is_gen_1_or_2": false,
+    "is_gen_even": false,
     "is_three_stage_evo": false,
-    "is_single_stage_non_special": false,
+    "is_single_stage_non_special": true,
     "is_color_rgb": false,
     "is_color_yellow_purple_pink": false,
     "weight_over_200kg": false,
@@ -641,105 +547,30 @@
     "is_bug_poison_gen_7_plus": false
   },
   {
-    "name": "manectric",
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/310.png",
-    "weight_kg": 40.2,
+    "name": "suicune",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/245.png",
+    "weight_kg": 187.0,
     "types": [
-      "electric"
+      "water"
     ],
-    "color": "yellow",
+    "color": "blue",
     "is_baby": false,
-    "is_legendary": false,
+    "is_legendary": true,
     "is_mythical": false,
     "varieties_name": [
-      "manectric",
-      "manectric-mega"
+      "suicune"
     ],
-    "generation": 3,
+    "generation": 2,
     "evos": [
-      "electrike",
-      "manectric"
+      "suicune"
     ],
-    "is_special_status": false,
-    "is_main_type_normal_grass_water": false,
+    "is_special_status": true,
+    "is_main_type_normal_grass_water": true,
     "has_dual_type": false,
     "is_secondary_type_flying_fairy_steel": false,
-    "is_gen_1_or_2": false,
-    "is_gen_even": false,
-    "is_three_stage_evo": false,
-    "is_single_stage_non_special": false,
-    "is_color_rgb": false,
-    "is_color_yellow_purple_pink": true,
-    "weight_over_200kg": false,
-    "weight_under_1kg": false,
-    "name_len_over_7": true,
-    "name_starts_consonant": true,
-    "is_bug_poison_gen_7_plus": false
-  },
-  {
-    "name": "gliscor",
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/472.png",
-    "weight_kg": 42.5,
-    "types": [
-      "ground",
-      "flying"
-    ],
-    "color": "purple",
-    "is_baby": false,
-    "is_legendary": false,
-    "is_mythical": false,
-    "varieties_name": [
-      "gliscor"
-    ],
-    "generation": 4,
-    "evos": [
-      "gligar",
-      "gliscor"
-    ],
-    "is_special_status": false,
-    "is_main_type_normal_grass_water": false,
-    "has_dual_type": true,
-    "is_secondary_type_flying_fairy_steel": true,
-    "is_gen_1_or_2": false,
+    "is_gen_1_or_2": true,
     "is_gen_even": true,
     "is_three_stage_evo": false,
-    "is_single_stage_non_special": false,
-    "is_color_rgb": false,
-    "is_color_yellow_purple_pink": true,
-    "weight_over_200kg": false,
-    "weight_under_1kg": false,
-    "name_len_over_7": false,
-    "name_starts_consonant": true,
-    "is_bug_poison_gen_7_plus": false
-  },
-  {
-    "name": "budew",
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/406.png",
-    "weight_kg": 1.2,
-    "types": [
-      "grass",
-      "poison"
-    ],
-    "color": "green",
-    "is_baby": true,
-    "is_legendary": false,
-    "is_mythical": false,
-    "varieties_name": [
-      "budew"
-    ],
-    "generation": 4,
-    "evos": [
-      "budew",
-      "roselia",
-      "roserade"
-    ],
-    "is_special_status": false,
-    "is_main_type_normal_grass_water": true,
-    "has_dual_type": true,
-    "is_secondary_type_flying_fairy_steel": false,
-    "is_gen_1_or_2": false,
-    "is_gen_even": true,
-    "is_three_stage_evo": true,
     "is_single_stage_non_special": false,
     "is_color_rgb": true,
     "is_color_yellow_purple_pink": false,
@@ -750,206 +581,23 @@
     "is_bug_poison_gen_7_plus": false
   },
   {
-    "name": "toedscool",
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/948.png",
-    "weight_kg": 33.0,
+    "name": "gouging-fire",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1020.png",
+    "weight_kg": 590.0,
     "types": [
-      "ground",
-      "grass"
-    ],
-    "color": "yellow",
-    "is_baby": false,
-    "is_legendary": false,
-    "is_mythical": false,
-    "varieties_name": [
-      "toedscool"
-    ],
-    "generation": 9,
-    "evos": [
-      "toedscool",
-      "toedscruel"
-    ],
-    "is_special_status": false,
-    "is_main_type_normal_grass_water": false,
-    "has_dual_type": true,
-    "is_secondary_type_flying_fairy_steel": false,
-    "is_gen_1_or_2": false,
-    "is_gen_even": false,
-    "is_three_stage_evo": false,
-    "is_single_stage_non_special": false,
-    "is_color_rgb": false,
-    "is_color_yellow_purple_pink": true,
-    "weight_over_200kg": false,
-    "weight_under_1kg": false,
-    "name_len_over_7": true,
-    "name_starts_consonant": true,
-    "is_bug_poison_gen_7_plus": false
-  },
-  {
-    "name": "wigglytuff",
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/40.png",
-    "weight_kg": 12.0,
-    "types": [
-      "normal",
-      "fairy"
-    ],
-    "color": "pink",
-    "is_baby": false,
-    "is_legendary": false,
-    "is_mythical": false,
-    "varieties_name": [
-      "wigglytuff"
-    ],
-    "generation": 1,
-    "evos": [
-      "igglybuff",
-      "jigglypuff",
-      "wigglytuff"
-    ],
-    "is_special_status": false,
-    "is_main_type_normal_grass_water": true,
-    "has_dual_type": true,
-    "is_secondary_type_flying_fairy_steel": true,
-    "is_gen_1_or_2": true,
-    "is_gen_even": false,
-    "is_three_stage_evo": true,
-    "is_single_stage_non_special": false,
-    "is_color_rgb": false,
-    "is_color_yellow_purple_pink": true,
-    "weight_over_200kg": false,
-    "weight_under_1kg": false,
-    "name_len_over_7": true,
-    "name_starts_consonant": true,
-    "is_bug_poison_gen_7_plus": false
-  },
-  {
-    "name": "gumshoos",
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/735.png",
-    "weight_kg": 14.2,
-    "types": [
-      "normal"
+      "fire",
+      "dragon"
     ],
     "color": "brown",
     "is_baby": false,
     "is_legendary": false,
     "is_mythical": false,
     "varieties_name": [
-      "gumshoos",
-      "gumshoos-totem"
+      "gouging-fire"
     ],
-    "generation": 7,
+    "generation": 9,
     "evos": [
-      "yungoos",
-      "gumshoos"
-    ],
-    "is_special_status": false,
-    "is_main_type_normal_grass_water": true,
-    "has_dual_type": false,
-    "is_secondary_type_flying_fairy_steel": false,
-    "is_gen_1_or_2": false,
-    "is_gen_even": false,
-    "is_three_stage_evo": false,
-    "is_single_stage_non_special": false,
-    "is_color_rgb": false,
-    "is_color_yellow_purple_pink": false,
-    "weight_over_200kg": false,
-    "weight_under_1kg": false,
-    "name_len_over_7": true,
-    "name_starts_consonant": true,
-    "is_bug_poison_gen_7_plus": false
-  },
-  {
-    "name": "joltik",
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/595.png",
-    "weight_kg": 0.6,
-    "types": [
-      "bug",
-      "electric"
-    ],
-    "color": "yellow",
-    "is_baby": false,
-    "is_legendary": false,
-    "is_mythical": false,
-    "varieties_name": [
-      "joltik"
-    ],
-    "generation": 5,
-    "evos": [
-      "joltik",
-      "galvantula"
-    ],
-    "is_special_status": false,
-    "is_main_type_normal_grass_water": false,
-    "has_dual_type": true,
-    "is_secondary_type_flying_fairy_steel": false,
-    "is_gen_1_or_2": false,
-    "is_gen_even": false,
-    "is_three_stage_evo": false,
-    "is_single_stage_non_special": false,
-    "is_color_rgb": false,
-    "is_color_yellow_purple_pink": true,
-    "weight_over_200kg": false,
-    "weight_under_1kg": true,
-    "name_len_over_7": false,
-    "name_starts_consonant": true,
-    "is_bug_poison_gen_7_plus": false
-  },
-  {
-    "name": "delphox",
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/655.png",
-    "weight_kg": 39.0,
-    "types": [
-      "fire",
-      "psychic"
-    ],
-    "color": "red",
-    "is_baby": false,
-    "is_legendary": false,
-    "is_mythical": false,
-    "varieties_name": [
-      "delphox",
-      "delphox-mega"
-    ],
-    "generation": 6,
-    "evos": [
-      "fennekin",
-      "braixen",
-      "delphox"
-    ],
-    "is_special_status": false,
-    "is_main_type_normal_grass_water": false,
-    "has_dual_type": true,
-    "is_secondary_type_flying_fairy_steel": false,
-    "is_gen_1_or_2": false,
-    "is_gen_even": true,
-    "is_three_stage_evo": true,
-    "is_single_stage_non_special": false,
-    "is_color_rgb": true,
-    "is_color_yellow_purple_pink": false,
-    "weight_over_200kg": false,
-    "weight_under_1kg": false,
-    "name_len_over_7": false,
-    "name_starts_consonant": true,
-    "is_bug_poison_gen_7_plus": false
-  },
-  {
-    "name": "dhelmise",
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/781.png",
-    "weight_kg": 210.0,
-    "types": [
-      "ghost",
-      "grass"
-    ],
-    "color": "green",
-    "is_baby": false,
-    "is_legendary": false,
-    "is_mythical": false,
-    "varieties_name": [
-      "dhelmise"
-    ],
-    "generation": 7,
-    "evos": [
-      "dhelmise"
+      "gouging-fire"
     ],
     "is_special_status": false,
     "is_main_type_normal_grass_water": false,
@@ -959,79 +607,11 @@
     "is_gen_even": false,
     "is_three_stage_evo": false,
     "is_single_stage_non_special": true,
-    "is_color_rgb": true,
+    "is_color_rgb": false,
     "is_color_yellow_purple_pink": false,
     "weight_over_200kg": true,
     "weight_under_1kg": false,
     "name_len_over_7": true,
-    "name_starts_consonant": true,
-    "is_bug_poison_gen_7_plus": false
-  },
-  {
-    "name": "komala",
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/775.png",
-    "weight_kg": 19.9,
-    "types": [
-      "normal"
-    ],
-    "color": "blue",
-    "is_baby": false,
-    "is_legendary": false,
-    "is_mythical": false,
-    "varieties_name": [
-      "komala"
-    ],
-    "generation": 7,
-    "evos": [
-      "komala"
-    ],
-    "is_special_status": false,
-    "is_main_type_normal_grass_water": true,
-    "has_dual_type": false,
-    "is_secondary_type_flying_fairy_steel": false,
-    "is_gen_1_or_2": false,
-    "is_gen_even": false,
-    "is_three_stage_evo": false,
-    "is_single_stage_non_special": true,
-    "is_color_rgb": true,
-    "is_color_yellow_purple_pink": false,
-    "weight_over_200kg": false,
-    "weight_under_1kg": false,
-    "name_len_over_7": false,
-    "name_starts_consonant": true,
-    "is_bug_poison_gen_7_plus": false
-  },
-  {
-    "name": "raikou",
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/243.png",
-    "weight_kg": 178.0,
-    "types": [
-      "electric"
-    ],
-    "color": "yellow",
-    "is_baby": false,
-    "is_legendary": true,
-    "is_mythical": false,
-    "varieties_name": [
-      "raikou"
-    ],
-    "generation": 2,
-    "evos": [
-      "raikou"
-    ],
-    "is_special_status": true,
-    "is_main_type_normal_grass_water": false,
-    "has_dual_type": false,
-    "is_secondary_type_flying_fairy_steel": false,
-    "is_gen_1_or_2": true,
-    "is_gen_even": true,
-    "is_three_stage_evo": false,
-    "is_single_stage_non_special": false,
-    "is_color_rgb": false,
-    "is_color_yellow_purple_pink": true,
-    "weight_over_200kg": false,
-    "weight_under_1kg": false,
-    "name_len_over_7": false,
     "name_starts_consonant": true,
     "is_bug_poison_gen_7_plus": false
   },
@@ -1073,29 +653,211 @@
     "is_bug_poison_gen_7_plus": false
   },
   {
-    "name": "bayleef",
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/153.png",
-    "weight_kg": 15.8,
+    "name": "solrock",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/338.png",
+    "weight_kg": 154.0,
     "types": [
-      "grass"
+      "rock",
+      "psychic"
+    ],
+    "color": "red",
+    "is_baby": false,
+    "is_legendary": false,
+    "is_mythical": false,
+    "varieties_name": [
+      "solrock"
+    ],
+    "generation": 3,
+    "evos": [
+      "solrock"
+    ],
+    "is_special_status": false,
+    "is_main_type_normal_grass_water": false,
+    "has_dual_type": true,
+    "is_secondary_type_flying_fairy_steel": false,
+    "is_gen_1_or_2": false,
+    "is_gen_even": false,
+    "is_three_stage_evo": false,
+    "is_single_stage_non_special": true,
+    "is_color_rgb": true,
+    "is_color_yellow_purple_pink": false,
+    "weight_over_200kg": false,
+    "weight_under_1kg": false,
+    "name_len_over_7": false,
+    "name_starts_consonant": true,
+    "is_bug_poison_gen_7_plus": false
+  },
+  {
+    "name": "meditite",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/307.png",
+    "weight_kg": 11.2,
+    "types": [
+      "fighting",
+      "psychic"
+    ],
+    "color": "blue",
+    "is_baby": false,
+    "is_legendary": false,
+    "is_mythical": false,
+    "varieties_name": [
+      "meditite"
+    ],
+    "generation": 3,
+    "evos": [
+      "meditite",
+      "medicham"
+    ],
+    "is_special_status": false,
+    "is_main_type_normal_grass_water": false,
+    "has_dual_type": true,
+    "is_secondary_type_flying_fairy_steel": false,
+    "is_gen_1_or_2": false,
+    "is_gen_even": false,
+    "is_three_stage_evo": false,
+    "is_single_stage_non_special": false,
+    "is_color_rgb": true,
+    "is_color_yellow_purple_pink": false,
+    "weight_over_200kg": false,
+    "weight_under_1kg": false,
+    "name_len_over_7": true,
+    "name_starts_consonant": true,
+    "is_bug_poison_gen_7_plus": false
+  },
+  {
+    "name": "scream-tail",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/985.png",
+    "weight_kg": 8.0,
+    "types": [
+      "fairy",
+      "psychic"
+    ],
+    "color": "pink",
+    "is_baby": false,
+    "is_legendary": false,
+    "is_mythical": false,
+    "varieties_name": [
+      "scream-tail"
+    ],
+    "generation": 9,
+    "evos": [
+      "scream-tail"
+    ],
+    "is_special_status": false,
+    "is_main_type_normal_grass_water": false,
+    "has_dual_type": true,
+    "is_secondary_type_flying_fairy_steel": false,
+    "is_gen_1_or_2": false,
+    "is_gen_even": false,
+    "is_three_stage_evo": false,
+    "is_single_stage_non_special": true,
+    "is_color_rgb": false,
+    "is_color_yellow_purple_pink": true,
+    "weight_over_200kg": false,
+    "weight_under_1kg": false,
+    "name_len_over_7": true,
+    "name_starts_consonant": true,
+    "is_bug_poison_gen_7_plus": false
+  },
+  {
+    "name": "blitzle",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/522.png",
+    "weight_kg": 29.8,
+    "types": [
+      "electric"
+    ],
+    "color": "black",
+    "is_baby": false,
+    "is_legendary": false,
+    "is_mythical": false,
+    "varieties_name": [
+      "blitzle"
+    ],
+    "generation": 5,
+    "evos": [
+      "blitzle",
+      "zebstrika"
+    ],
+    "is_special_status": false,
+    "is_main_type_normal_grass_water": false,
+    "has_dual_type": false,
+    "is_secondary_type_flying_fairy_steel": false,
+    "is_gen_1_or_2": false,
+    "is_gen_even": false,
+    "is_three_stage_evo": false,
+    "is_single_stage_non_special": false,
+    "is_color_rgb": false,
+    "is_color_yellow_purple_pink": false,
+    "weight_over_200kg": false,
+    "weight_under_1kg": false,
+    "name_len_over_7": false,
+    "name_starts_consonant": true,
+    "is_bug_poison_gen_7_plus": false
+  },
+  {
+    "name": "appletun",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/842.png",
+    "weight_kg": 13.0,
+    "types": [
+      "grass",
+      "dragon"
     ],
     "color": "green",
     "is_baby": false,
     "is_legendary": false,
     "is_mythical": false,
     "varieties_name": [
-      "bayleef"
+      "appletun",
+      "appletun-gmax"
     ],
-    "generation": 2,
+    "generation": 8,
     "evos": [
-      "chikorita",
-      "bayleef",
-      "meganium"
+      "applin",
+      "flapple",
+      "appletun",
+      "dipplin",
+      "hydrapple"
     ],
     "is_special_status": false,
     "is_main_type_normal_grass_water": true,
-    "has_dual_type": false,
+    "has_dual_type": true,
     "is_secondary_type_flying_fairy_steel": false,
+    "is_gen_1_or_2": false,
+    "is_gen_even": true,
+    "is_three_stage_evo": true,
+    "is_single_stage_non_special": false,
+    "is_color_rgb": true,
+    "is_color_yellow_purple_pink": false,
+    "weight_over_200kg": false,
+    "weight_under_1kg": false,
+    "name_len_over_7": true,
+    "name_starts_consonant": false,
+    "is_bug_poison_gen_7_plus": false
+  },
+  {
+    "name": "marill",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/183.png",
+    "weight_kg": 8.5,
+    "types": [
+      "water",
+      "fairy"
+    ],
+    "color": "blue",
+    "is_baby": false,
+    "is_legendary": false,
+    "is_mythical": false,
+    "varieties_name": [
+      "marill"
+    ],
+    "generation": 2,
+    "evos": [
+      "azurill",
+      "marill",
+      "azumarill"
+    ],
+    "is_special_status": false,
+    "is_main_type_normal_grass_water": true,
+    "has_dual_type": true,
+    "is_secondary_type_flying_fairy_steel": true,
     "is_gen_1_or_2": true,
     "is_gen_even": true,
     "is_three_stage_evo": true,
@@ -1127,6 +889,258 @@
       "duskull",
       "dusclops",
       "dusknoir"
+    ],
+    "is_special_status": false,
+    "is_main_type_normal_grass_water": false,
+    "has_dual_type": false,
+    "is_secondary_type_flying_fairy_steel": false,
+    "is_gen_1_or_2": false,
+    "is_gen_even": false,
+    "is_three_stage_evo": true,
+    "is_single_stage_non_special": false,
+    "is_color_rgb": false,
+    "is_color_yellow_purple_pink": false,
+    "weight_over_200kg": false,
+    "weight_under_1kg": false,
+    "name_len_over_7": true,
+    "name_starts_consonant": true,
+    "is_bug_poison_gen_7_plus": false
+  },
+  {
+    "name": "sigilyph",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/561.png",
+    "weight_kg": 14.0,
+    "types": [
+      "psychic",
+      "flying"
+    ],
+    "color": "black",
+    "is_baby": false,
+    "is_legendary": false,
+    "is_mythical": false,
+    "varieties_name": [
+      "sigilyph"
+    ],
+    "generation": 5,
+    "evos": [
+      "sigilyph"
+    ],
+    "is_special_status": false,
+    "is_main_type_normal_grass_water": false,
+    "has_dual_type": true,
+    "is_secondary_type_flying_fairy_steel": true,
+    "is_gen_1_or_2": false,
+    "is_gen_even": false,
+    "is_three_stage_evo": false,
+    "is_single_stage_non_special": true,
+    "is_color_rgb": false,
+    "is_color_yellow_purple_pink": false,
+    "weight_over_200kg": false,
+    "weight_under_1kg": false,
+    "name_len_over_7": true,
+    "name_starts_consonant": true,
+    "is_bug_poison_gen_7_plus": false
+  },
+  {
+    "name": "primarina",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/730.png",
+    "weight_kg": 44.0,
+    "types": [
+      "water",
+      "fairy"
+    ],
+    "color": "blue",
+    "is_baby": false,
+    "is_legendary": false,
+    "is_mythical": false,
+    "varieties_name": [
+      "primarina"
+    ],
+    "generation": 7,
+    "evos": [
+      "popplio",
+      "brionne",
+      "primarina"
+    ],
+    "is_special_status": false,
+    "is_main_type_normal_grass_water": true,
+    "has_dual_type": true,
+    "is_secondary_type_flying_fairy_steel": true,
+    "is_gen_1_or_2": false,
+    "is_gen_even": false,
+    "is_three_stage_evo": true,
+    "is_single_stage_non_special": false,
+    "is_color_rgb": true,
+    "is_color_yellow_purple_pink": false,
+    "weight_over_200kg": false,
+    "weight_under_1kg": false,
+    "name_len_over_7": true,
+    "name_starts_consonant": true,
+    "is_bug_poison_gen_7_plus": false
+  },
+  {
+    "name": "scorbunny",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/813.png",
+    "weight_kg": 4.5,
+    "types": [
+      "fire"
+    ],
+    "color": "white",
+    "is_baby": false,
+    "is_legendary": false,
+    "is_mythical": false,
+    "varieties_name": [
+      "scorbunny"
+    ],
+    "generation": 8,
+    "evos": [
+      "scorbunny",
+      "raboot",
+      "cinderace"
+    ],
+    "is_special_status": false,
+    "is_main_type_normal_grass_water": false,
+    "has_dual_type": false,
+    "is_secondary_type_flying_fairy_steel": false,
+    "is_gen_1_or_2": false,
+    "is_gen_even": true,
+    "is_three_stage_evo": true,
+    "is_single_stage_non_special": false,
+    "is_color_rgb": false,
+    "is_color_yellow_purple_pink": false,
+    "weight_over_200kg": false,
+    "weight_under_1kg": false,
+    "name_len_over_7": true,
+    "name_starts_consonant": true,
+    "is_bug_poison_gen_7_plus": false
+  },
+  {
+    "name": "tapu-fini",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/788.png",
+    "weight_kg": 21.2,
+    "types": [
+      "water",
+      "fairy"
+    ],
+    "color": "purple",
+    "is_baby": false,
+    "is_legendary": true,
+    "is_mythical": false,
+    "varieties_name": [
+      "tapu-fini"
+    ],
+    "generation": 7,
+    "evos": [
+      "tapu-fini"
+    ],
+    "is_special_status": true,
+    "is_main_type_normal_grass_water": true,
+    "has_dual_type": true,
+    "is_secondary_type_flying_fairy_steel": true,
+    "is_gen_1_or_2": false,
+    "is_gen_even": false,
+    "is_three_stage_evo": false,
+    "is_single_stage_non_special": false,
+    "is_color_rgb": false,
+    "is_color_yellow_purple_pink": true,
+    "weight_over_200kg": false,
+    "weight_under_1kg": false,
+    "name_len_over_7": true,
+    "name_starts_consonant": true,
+    "is_bug_poison_gen_7_plus": false
+  },
+  {
+    "name": "galvantula",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/596.png",
+    "weight_kg": 14.3,
+    "types": [
+      "bug",
+      "electric"
+    ],
+    "color": "yellow",
+    "is_baby": false,
+    "is_legendary": false,
+    "is_mythical": false,
+    "varieties_name": [
+      "galvantula"
+    ],
+    "generation": 5,
+    "evos": [
+      "joltik",
+      "galvantula"
+    ],
+    "is_special_status": false,
+    "is_main_type_normal_grass_water": false,
+    "has_dual_type": true,
+    "is_secondary_type_flying_fairy_steel": false,
+    "is_gen_1_or_2": false,
+    "is_gen_even": false,
+    "is_three_stage_evo": false,
+    "is_single_stage_non_special": false,
+    "is_color_rgb": false,
+    "is_color_yellow_purple_pink": true,
+    "weight_over_200kg": false,
+    "weight_under_1kg": false,
+    "name_len_over_7": true,
+    "name_starts_consonant": true,
+    "is_bug_poison_gen_7_plus": false
+  },
+  {
+    "name": "kakuna",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/14.png",
+    "weight_kg": 10.0,
+    "types": [
+      "bug",
+      "poison"
+    ],
+    "color": "yellow",
+    "is_baby": false,
+    "is_legendary": false,
+    "is_mythical": false,
+    "varieties_name": [
+      "kakuna"
+    ],
+    "generation": 1,
+    "evos": [
+      "weedle",
+      "kakuna",
+      "beedrill"
+    ],
+    "is_special_status": false,
+    "is_main_type_normal_grass_water": false,
+    "has_dual_type": true,
+    "is_secondary_type_flying_fairy_steel": false,
+    "is_gen_1_or_2": true,
+    "is_gen_even": false,
+    "is_three_stage_evo": true,
+    "is_single_stage_non_special": false,
+    "is_color_rgb": false,
+    "is_color_yellow_purple_pink": true,
+    "weight_over_200kg": false,
+    "weight_under_1kg": false,
+    "name_len_over_7": false,
+    "name_starts_consonant": true,
+    "is_bug_poison_gen_7_plus": false
+  },
+  {
+    "name": "vanilluxe",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/584.png",
+    "weight_kg": 57.5,
+    "types": [
+      "ice"
+    ],
+    "color": "white",
+    "is_baby": false,
+    "is_legendary": false,
+    "is_mythical": false,
+    "varieties_name": [
+      "vanilluxe"
+    ],
+    "generation": 5,
+    "evos": [
+      "vanillite",
+      "vanillish",
+      "vanilluxe"
     ],
     "is_special_status": false,
     "is_main_type_normal_grass_water": false,
