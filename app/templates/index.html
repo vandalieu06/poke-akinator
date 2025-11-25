@@ -9,9 +9,9 @@ endblock%} {% block content %}
     <img
       src="{{ p.image }}"
       alt="{{ p.name }}"
-      class="w-24 h-24 rounded-full bg-white p-2 shadow-lg"
+      class="w-24 h-24 rounded-full bg-white p-1 shadow-lg object-center"
     />
-    <p class="mt-2 font-semibold text-white">{{ p.name }}</p>
+    <p class="mt-2 font-semibold text-white text-center capitalize">{{ p.name }}</p>
   </div>
   {% endfor %}
 </div>

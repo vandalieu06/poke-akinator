@@ -1,11 +1,19 @@
-from flask import Flask, render_template, request, session, redirect, url_for
+from flask import Flask, redirect, render_template, request, session, url_for
+
 from app.utils.game import DataHandler, PokeAkinatorLogic
+from app.utils.generate_poke_data import generate_new_pokemon_data
 
 app = Flask(__name__)
 app.secret_key = "86d27b0aaa812eee1b0d607355b1eaf96c4ebd955cc4f72523543535a109b671"
 
 
 def init_game():
+    try:
+        generate_new_pokemon_data()
+        print("[INFO] Nueva datos de Pokémons generados en app/data/data.json")
+    except Exception as e:
+        print(f"[ERROR] No se pudo generar nuevos datos de Pokémons: {e}")
+
     data_loader = DataHandler()
     poke_data = data_loader.get_data("data.json")
     if poke_data:
@@ -48,11 +56,11 @@ def save_game(game, poke_data):
 
 @app.route("/", methods=["GET"])
 def index():
-    if "game" not in session:
-        poke_data = init_game()
-        return render_template("index.html", pokemons=poke_data)
+    # if "game" in session:
+    #     return redirect(url_for("question"))
 
-    return render_template("/preguntas")
+    poke_data = init_game()
+    return render_template("index.html", pokemons=poke_data)
 
 
 @app.route("/restart")
@@ -113,5 +121,8 @@ def resultado():
         )
 
 
+# if __name__ == "__main__":
+#     app.run(host="0.0.0.0", port=5000, debug=True)
+
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(port=5000, debug=True)

@@ -9,7 +9,7 @@ from pathlib import Path
 
 POKE_API_BASE_URI = "https://pokeapi.co/api/v2/pokemon/"
 POKEDEX_NUM = 1025
-POKE_NUM = 30
+POKE_NUM = 32
 
 
 class AsyncPokeAPI:
