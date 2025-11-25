@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request, session, redirect, url_for
-from utils.game import DataHandler, PokeAkinatorLogic
+from app.utils.game import DataHandler, PokeAkinatorLogic
 
 app = Flask(__name__)
 app.secret_key = "86d27b0aaa812eee1b0d607355b1eaf96c4ebd955cc4f72523543535a109b671"
@@ -8,13 +8,15 @@ app.secret_key = "86d27b0aaa812eee1b0d607355b1eaf96c4ebd955cc4f72523543535a109b6
 def init_game():
     data_loader = DataHandler()
     poke_data = data_loader.get_data("data.json")
-    questions_data = data_loader.get_data("questions.json")
+    if poke_data:
+        session["game"] = {
+            "current_poke_indices": list(range(len(poke_data))),
+            "current_question_index": 0,
+            "history": [],
+        }
 
-    session["game"] = {
-        "current_poke_indices": list(range(len(poke_data))),
-        "current_question_index": 0,
-        "history": []
-    }
+        app.logger.info(f"Lista IDS: {list(range(len(poke_data)))}")
+    return poke_data
 
 
 def load_game():
@@ -25,34 +27,33 @@ def load_game():
     poke_data = data_loader.get_data("data.json")
     questions_data = data_loader.get_data("questions.json")
 
-    game = PokeAkinatorLogic(poke_data, questions_data)
-
-    indices = session["game"]["current_poke_indices"]
-    game.current_poke_data = [poke_data[i] for i in indices]
-    game.current_question_index = session["game"]["current_question_index"]
-    game.history = session["game"]["history"]
-
-    return game, poke_data
+    if poke_data is not None:
+        game = PokeAkinatorLogic(poke_data, questions_data)
+        current_pokes = session["game"]["current_poke_indices"]
+        game.current_poke_data = [poke_data[p] for p in current_pokes]
+        game.current_question_index = session["game"]["current_question_index"]
+        game.history = session["game"]["history"]
+        return game, poke_data
 
 
 def save_game(game, poke_data):
-    indices = [poke_data.index(p) for p in game.current_poke_data]
+    current_pokes = [poke_data.index(p) for p in game.current_poke_data]
+    app.logger.info(current_pokes)
     session["game"] = {
-        "current_poke_indices": indices,
+        "current_poke_indices": current_pokes,
         "current_question_index": game.current_question_index,
-        "history": game.history
+        "history": game.history,
     }
 
 
 @app.route("/", methods=["GET"])
 def index():
     if "game" not in session:
-        init_game()
+        poke_data = init_game()
+        return render_template("index.html", pokemons=poke_data)
 
-    data_loader = DataHandler()
-    poke_data = data_loader.get_data("data.json")
+    return render_template("/preguntas")
 
-    return render_template("index.html", pokemons=poke_data)
 
 @app.route("/restart")
 def restart():
@@ -63,6 +64,7 @@ def restart():
 @app.route("/preguntas", methods=["GET", "POST"])
 def question():
     game, poke_data = load_game()
+
     if game is None:
         return redirect(url_for("index"))
 
@@ -73,6 +75,7 @@ def question():
         user_answer = request.form.get("respuesta")
         _, filter_key = game.get_current_question()
         game.process_answer(user_answer, filter_key)
+
         save_game(game, poke_data)
 
         if game.is_game_over():
@@ -81,9 +84,7 @@ def question():
     question_text, _ = game.get_current_question()
 
     return render_template(
-        "preguntas.html",
-        question=question_text,
-        index=game.current_question_index + 1
+        "preguntas.html", question=question_text, index=game.current_question_index + 1
     )
 
 
@@ -98,7 +99,18 @@ def resultado():
         candidates = ", ".join([p["name"] for p in game.current_poke_data])
         result_text = f"Posibles candidatos: {candidates}"
 
-    return render_template("resultado.html", result=result_text, pokemon=poke_data[0]["image"])
+    app.logger.info(f"[LOG] POKE IDS ACTUALES: {game.current_poke_data}")
+
+    if len(game.current_poke_data) == 1:
+        return render_template(
+            "resultado.html",
+            result=result_text,
+            poke_img=game.current_poke_data[0]["image"],
+        )
+    else:
+        return render_template(
+            "resultado.html", result=result_text, poke_img="/static/img/who_is_poke.png"
+        )
 
 
 if __name__ == "__main__":

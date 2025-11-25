@@ -5,6 +5,7 @@ import os
 import random
 import time
 from typing import Dict, Any
+from pathlib import Path
 
 POKE_API_BASE_URI = "https://pokeapi.co/api/v2/pokemon/"
 POKEDEX_NUM = 1025
@@ -223,5 +224,48 @@ async def main():
     print(f"[TIEMPO TOTAL] {end_time - start_time:.2f} segundos.")
 
 
-if __name__ == "__main__":
-    asyncio.run(main())
+def generate_new_pokemon_data(base_dir=None):
+    """
+    Función síncrona para generar y guardar el nuevo archivo data.json.
+    """
+
+    async def generate_and_save():
+        start_time = time.time()
+        poke = AsyncPokeAPI()
+
+        # Obtener los IDs de Pokémon
+        poke_ids = random.sample(range(1, POKEDEX_NUM + 1), POKE_NUM)
+        print(
+            f"[INFO] Buscando y transformando información para {POKE_NUM} Pokémons..."
+        )
+
+        # Directorio de datos
+        if base_dir is None:
+            data_dir = Path(os.getcwd()) / "app/data"
+        else:
+            data_dir = Path(base_dir) / "data"
+
+        data_dir.mkdir(parents=True, exist_ok=True)
+        file_name = data_dir / "data.json"
+
+        # Peticiones asíncronas
+        async with httpx.AsyncClient(timeout=10.0) as client:
+            tasks = [poke.get_poke_info(client, id) for id in poke_ids]
+            poke_list = await asyncio.gather(*tasks)
+
+        # Guardar datos
+        with open(file_name, "w") as data_json:
+            json.dump(poke_list, data_json, indent=2)
+
+        end_time = time.time()
+        print(
+            f"\n[ÉXITO] Datos de {len(poke_list)} Pokémons guardados en '{file_name}'"
+        )
+        print(f"[TIEMPO TOTAL] {end_time - start_time:.2f} segundos.")
+
+    # Ejecutar la función asíncrona de forma síncrona
+    asyncio.run(generate_and_save())
+
+
+# if __name__ == "__main__":
+#     asyncio.run(main())

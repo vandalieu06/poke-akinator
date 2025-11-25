@@ -132,4 +132,3 @@ def run_console_game():
         print(
             f"\n[FIN] ¡Se acabaron las preguntas! Los posibles candidatos son: {candidates}"
         )
-
