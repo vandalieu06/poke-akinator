@@ -29,7 +29,7 @@ Poke Akinator es un juego interactivo donde la aplicación intenta adivinar en q
 
 1. Clona el repositorio:
 ```bash
-git clone <url-del-repositorio>
+git clone https://github.com/vandalieu06/poke-akinator.git
 cd poke-akinator
 ```
 
@@ -50,7 +50,7 @@ source .venv/bin/activate
 
 3. Instala las dependencias:
 ```bash
-pip install -r requirements.txt
+pip install -r requeriments.txt
 ```
 
 4. Ejecuta la aplicación:
@@ -119,10 +119,6 @@ poke-akinator/
 3. Observa cómo Poke Akinator intenta adivinar tu Pokémon
 4. ¡Comprueba si puede leer tu mente!
 
-## Documentación adicional
-
-Para información más detallada sobre cómo empezar con el desarrollo, consulta la guía [START.md](docs/START.md) en la carpeta `docs/`.
-
 ## Contribuciones
 
 ¡Las contribuciones son bienvenidas! Siéntete libre de:
@@ -137,7 +133,3 @@ Este proyecto está disponible para propósitos educativos.
 ## Autor
 
 Desarrollado como un proyecto de aprendizaje para demostrar habilidades de desarrollo web con Flask.
-
----
-
-**Nota**: Asegúrate de revisar `requirements.txt` para la lista completa de dependencias antes de ejecutar la aplicación.
