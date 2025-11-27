@@ -1,24 +1,38 @@
-{% extends "base.html" %} {% block title %} Projecte Akinator - Inicio {%
-endblock%} {% block content %}
+{% extends "base.html" %}
+{% block title %} Projecte Akinator - Inicio {% endblock %}
+{% block content %}
 
-<h2 class="text-4xl">Escoge uno de los siguientes Pokémons</h2>
+<h2 class="text-2xl sm:text-3xl md:text-4xl font-bold text-center">
+  Escoge uno de los siguientes Pokémons
+</h2>
 
-<div class="max-w-5xl grid grid-cols-3 md:grid-cols-8 gap-6">
+<div class="w-full max-w-5xl grid 
+            grid-cols-2
+            sm:grid-cols-3
+            md:grid-cols-4
+            lg:grid-cols-6
+            xl:grid-cols-8
+            gap-6 mt-6">
+
   {% for p in pokemons %}
-  <div class="flex flex-col items-center transition-transform hover:scale-110 cursor-pointer">
+  <div class="flex flex-col items-center transition-transform lg:hover:scale-110 cursor-pointer">
+
     <img
       src="{{ p.image }}"
       alt="{{ p.name }}"
-      class="w-24 h-24 rounded-full bg-white p-1 shadow-lg object-center"
+      class="w-20 h-20 sm:w-24 sm:h-24 rounded-full bg-white p-1 shadow-lg object-cover"
     />
-    <p class="mt-2 font-semibold text-white text-center capitalize">{{ p.name }}</p>
+
+    <p class="mt-2 font-semibold text-white text-center capitalize text-sm sm:text-base">
+      {{ p.name }}
+    </p>
   </div>
   {% endfor %}
 </div>
 
 <a
   href="{{ url_for('game.question') }}"
-  class="bg-yellow-300 text-blue-700 font-bold px-6 py-3 rounded-xl shadow-md hover:bg-yellow-400 hover:-translate-y-1 transition-all inline-block text-center"
+  class="mt-8 bg-yellow-300 text-blue-700 font-bold px-6 py-3 rounded-xl shadow-md  hover:bg-yellow-400 hover:-translate-y-1 transition-all text-center w-full sm:w-auto"
 >
   ¡Estoy listo!
 </a>
